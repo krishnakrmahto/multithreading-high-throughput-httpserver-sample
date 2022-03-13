@@ -13,7 +13,7 @@ public class HighThroughputHttpSearchServer {
 
   private static final String INPUT_FILE = "resources/war_and_peace.txt";
 
-  private static final int NUM_OF_THREADS = 1;
+  private static final int NUM_OF_THREADS = 4;
 
   public static void main(String[] args) {
     try {
